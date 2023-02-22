@@ -1,0 +1,7 @@
+name: qrcode
+type: module
+description: 'Provides QR Code For Products.'
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: entity.student.settings

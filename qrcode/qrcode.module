@@ -1,0 +1,10 @@
+<?php 
+
+ /**
+ * Implements hook_preprocess_block().
+ */
+ function qrcode_preprocess_block(&$vars) {
+  if($vars['derivative_plugin_id'] == 'Qrcode_block') {
+    $vars['#cache']['max-age'] = 0;
+  }
+}
